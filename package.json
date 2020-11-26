@@ -4,7 +4,8 @@
   "description": "Servidor de sistemas online NTD Soft",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon alunoserver.js"
+    "dev": "nodemon alunoserver.js",
+    "start":"node alunoserver.js"
   },
   "author": "Cássio da Silva Carneiro",
   "license": "ISC",
