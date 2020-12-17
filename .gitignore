@@ -1,0 +1,11 @@
+bdnosqlbin/alunos/alunoconectado/*
+!bdnosqlbin/alunos/alunoconectado/detalhes.info
+
+bdnosqlbin/alunos/chat_*
+
+credential/*
+
+node_modules
+mysql_erro.inf
+resp.inf
+Dockerfile

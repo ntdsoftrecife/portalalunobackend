@@ -1,0 +1,22 @@
+{
+  "name": "ntdsoftserver",
+  "version": "1.0.0",
+  "description": "Servidor de sistemas online NTD Soft",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon alunoserver.js",
+    "start":"node alunoserver.js"
+  },
+  "author": "Cássio da Silva Carneiro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1",
+    "socket.io": "^2.3.0",
+    "utf": "^1.0.0",
+    "utf8": "^3.0.0"
+  }
+}
