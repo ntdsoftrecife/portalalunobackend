@@ -25,6 +25,8 @@ app.use(cors({
     }
 }))
 
+app.get('/testsite',(req,res) => res.send('Site rodando bem'))
+
 app.set('view engine','html')
 
 app.use('/aluno',require('./routers/frontend'))
